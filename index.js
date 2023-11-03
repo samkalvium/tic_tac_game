@@ -48,7 +48,7 @@ function startGame(e) {
             }
             flag = 1;
         }
-        if (xPos.length + oPos.length < 9) {
+        if (xPos.length + oPos.length == 9) {
             console.log("It's a tie!");
             document.getElementById("result").style.visibility = "visible";
             document.getElementById("message").innerText = "It's a Tie!";
